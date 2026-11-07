@@ -6,7 +6,6 @@ Esse repositório contém:
 - a implementação de um "oráculo" de não localidade para o cenário CHSH padrão, sem relaxação;
 - a implementação de um "oráculo" de não localidade para o cenário CHSH com relaxação unilateral;
 - a implementação de um "oráculo" de não localidade para o cenário CHSH com relaxação superluminal;
-- a implementação de um "oráculo" de não localidade para o cenário CHSH com relaxação retrocausal;
 - a implementação de um "oráculo" de não localidade para o cenário CHSH com relaxação causal.
 
 ### 1. script para a obtenção das facetas do politopo local do cenário CHSH
@@ -20,15 +19,13 @@ Os códigos de cada uma das implementações de "oráculos" de não localidade e
 - train.py: contém as funções referentes ao processo de treino da rede neural;
 - main.py: arquivo a ser executado. Chama as funções contidas nos outros arquivos, gerando os dados, treinando a rede e, ao fim, gerando os gráficos.
   #### Padrão, sem relaxação
-  Os códigos dessa implemementação estão presentes na pasta "Padrão" deste repositório. O detalhamento do seu desenvolvimento está presente na seção 4.2.1 da dissertação, e os resultados obtidos estão presentes no início do capítulo 5.
+  Os códigos dessa implemementação estão presentes na pasta "Padrão" deste repositório. O detalhamento do seu desenvolvimento está presente na seção 5.2.1 da dissertação, e os resultados obtidos estão presentes no início do capítulo 6.
   #### Relaxação unilateral
-  Os códigos dessa implemementação estão presentes no caminho "Relaxações\Retrocausal unilateral" deste repositório. O detalhamento do seu desenvolvimento está presente na seção 4.2.2 da dissertação, e os resultados obtidos estão presentes na seção 5.1.
+  Os códigos dessa implemementação estão presentes no caminho "Relaxações\Retrocausal unilateral" deste repositório. O detalhamento do seu desenvolvimento está presente na seção 5.2.2 da dissertação, e os resultados obtidos estão presentes na seção 6.1.
   #### Relaxação superluminal
-  Os códigos dessa implemementação estão presentes no caminho "Relaxações\Superluminal" deste repositório. O detalhamento do seu desenvolvimento está presente na seção 4.2.2 da dissertação, e os resultados obtidos estão presentes na seção 5.1.
-  #### Relaxação retrocausal
-  Os códigos dessa implemementação estão presentes no caminho "Relaxações\Retrocausal" deste repositório. O detalhamento do seu desenvolvimento está presente na seção 4.2.3 da dissertação, e os resultados obtidos estão presentes na seção 5.2.
+  Os códigos dessa implemementação estão presentes no caminho "Relaxações\Superluminal" deste repositório. O detalhamento do seu desenvolvimento está presente na seção 5.2.2 da dissertação, e os resultados obtidos estão presentes na seção 6.1.
   #### Relaxação causal
-  Os códigos dessa implemementação estão presentes no caminho "Relaxações\Causal" deste repositório. O detalhamento do seu desenvolvimento está presente na seção 4.2.4 da dissertação, e os resultados obtidos estão presentes na seção 5.3.
+  Os códigos dessa implemementação estão presentes no caminho "Relaxações\Causal" deste repositório. O detalhamento do seu desenvolvimento está presente na seção 5.2.3 da dissertação, e os resultados obtidos estão presentes na seção 5.2.
 
 ## Dependências
 
